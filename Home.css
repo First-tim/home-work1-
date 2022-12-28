@@ -1,0 +1,802 @@
+body{
+  text-transform: uppercase;
+  padding: 0;;
+  margin: 0;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  position: fixed;
+}
+header ul{
+  list-style: none;
+  display: flex;
+}
+header ul ul{
+  display: none;
+}
+header ul li:hover ul{
+  display: block;
+}
+header ul a{
+  padding: 0 5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+.logo{
+  margin-top: 4px;
+}
+header input{
+  margin-right: 20px;
+  padding: 10px;
+  margin-top: 3px;
+  background-color: #8393ff;
+  color: white;
+}
+/*header end*/
+/*section start*/
+.section1{
+  width: 100%;
+ height: 100%;
+ display: flex;
+}
+.section1 .tex .text button{
+  background-color:#16e0c2 ;
+ padding: 20px;
+ background: linear-gradient(to right, #33adff -51%, #e6f0ff 139%);
+ font-size: 30px;
+}
+.tex{
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  margin-top: 130px;
+  background-image: url('x3.png.');
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  font-size: 40px;
+}
+.text{
+  margin-left: 90px;
+}
+
+/*section end*/
+/*section2 start*/
+.section2{
+  display: flex;
+  width: 100%;
+}
+.g{
+  display: flex;
+  width: 100%;
+}
+.i{
+  background-color: aqua;
+}
+.ii{
+  background-color: aquamarine;
+}
+.section2 button{
+  padding: 10px;
+  background-color:transparent;
+  border: 1px solid white;
+  outline: none;
+  cursor: none;
+  
+}
+.section2 button:hover{
+  color: white;
+}
+/*section2 end*/
+            /*section3 start*/
+   .section3{
+     width: 100%;
+     margin-top: 40px;
+     justify-content: center;
+     
+  display: flex;
+   }         
+   .section3 div{
+     display: flex;
+   }  
+  .section3 .img{
+    margin-top: 190px;
+  }
+              /*section3 end*/
+  /*section4 start*/
+
+    .section4{
+      padding: 15px;
+    }  
+    .section4 button{
+      padding: 10px 25px;
+      border: 1px solid green;
+      background-color: white;
+  border:1px solid  linear-gradient(to right, #00bfff -22%, #e6f0ff 156%);
+      color:  #00bfff;
+      cursor: none;
+    }
+    .section4 button:hover{
+      color: #00ffff;
+    } 
+    button{
+      outline: none;
+      cursor: pointer;
+    }
+     /*section4 end*/       
+            /*section5 start*/
+            
+            .section5{
+              background-color: #eeeee4
+;
+              justify-content: center;
+              
+              text-align: center;
+              width: 100%;
+              height: 100%;
+            }
+            .section5 .u1{
+              display: flex;
+              justify-content: center;
+              width: 100%;
+            }
+            .section5 a{
+              text-decoration: none;
+              color:  	 #00e6e6;
+            }
+            .section5 a:hover{
+              text-decoration: underline;
+            }
+            .section5 .u1 .u2{
+              background-color: white;
+              width: 370px;
+            }
+            .section5 .u1 div p{
+              color: rgba(0,0,0,0.3);
+            }
+            .section5 .div{
+              overflow: hidden;
+              height:px;
+              width: px;
+            }
+            .section5 .u1 .div img{
+             height: 240px;
+             width: 380px;
+             overflow: hidden;
+             transition: 1.9s;
+            }
+            .section5 .u1 .div img:hover{
+              transform: scale(1.3);
+              
+            }
+            .section5 .u1 .u3{
+              overflow: hidden;
+            }
+            .section5 .u1 .u3 img{
+              overflow: hidden;
+             transition: 0.9s;
+            }
+             .section5 .u1 .u3 img:hover{
+              transform: scale(1.2);
+            }
+            .section5 .u1 .u3 .div2{
+            background-color: white;
+            width: 360px;
+            margin-left: 2px;
+          }
+          .section5 .u1 div{
+            padding: 25px 15px;
+          }
+            /*section5 end*/
+ /*section6 start*/
+ .section6{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   
+ }
+ .section6 div{
+   background-position: center;
+   height: 450px;
+   flex-direction: column;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 100%;
+background-image:url('z#.png') ;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ .section6 p{
+ 
+     font-size: 20px;
+ }
+   /*section6 end*/
+ /*section7 start*/
+ .section7{
+   width: 100%;
+   height: 100%;
+   background-color: white;
+   margin-top: 30px;
+   display: flex;
+ }
+ .section7 .mytabs{
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 100%;
+   
+ }
+ .section7 .mytabs input{
+   display: none;
+    
+ }
+ .section7 .mytabs label{
+  padding: 10px;
+   background-color: white;
+    color: rgba(0,0,0,0.7);
+ }
+ .mytabs .tab div img{
+   float: right;
+   
+ }
+ .gox{
+   width: 400px;
+   float: left;
+ }
+ .mytabs .tab{
+   width: 100%;
+   order: 1;
+   display: none;
+   padding: 20px;
+   background-color: white;
+  
+ }
+ .mytabs input:checked + label + .tab {
+   display: block;
+ }
+ .mytabs i{
+   background-color: green;
+   padding: 10px;
+   border-radius: 30px;;
+ }
+  .mytabs input:checked + label {
+    background-color:  #f2f2f2;
+    color: black;
+  }
+ /*section7 end*/
+ /*section8 start*/
+ .section8{
+   width: 100%;
+   height: 100%;
+   background-color;#e6e6e6 ;
+ }
+ .section8 .but{
+   padding: 100px 0;
+   width: 100%;
+   height:100% ;
+   justify-content: space-around;
+   display: flex;
+ }
+ 
+ .section8 .but div{
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   display: flex;
+ }
+ .but div button{
+   padding: 10px 50px;
+   outline: none;
+   border: none;
+   cursor: none;
+ }
+ .ppp{
+   font-size: 16px;
+   text-transform: uppercase;
+ }
+ .pp{
+   color: e6e6e6;
+   font-size: 10px;
+   text-transform: uppercase;
+ }
+ .section8 button:hover{
+   background-color: 	;
+   background:linear-gradient(to right, #4db8ff 31%, #e6f0ff 121%);
+ }
+ /*section8 end*/
+ /*section9 start*/
+ .section9{
+   width: 100%;
+   height: 100%;
+   
+ }
+ .section9 .imk{
+   width:;
+   height: ;
+   background-color:  ;
+
+   color: #a3c2c2;
+ }
+ .section9 .imk1{
+   background-image: url('xs1.png');
+   width: 100%;
+   height: 300px;
+   background-size: ;
+  background-repeat: no-repeat;
+ background-color: rgba(0,0,0,0.9);
+   text-align: center;
+   background-color: ;
+   background-size: cover;
+   background-position: center;
+   justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+ }
+ .section9 .mkl2{
+   background-image: url('xe');
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 300px;
+   background-size: ;
+  background-repeat: no-repeat;
+color: #a3c2c2;
+   text-align: center;
+  
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+ }
+ .imk .imk1 div{
+   margin-top: 50px;
+   position: absolute;
+ }
+ .section9 button{
+ border: 1px solid white;
+ padding: 10px 20px;
+ border-radius: 50px;
+ cursor: none;
+ background-color: transparent;
+ r
+ }
+ .section9 button:hover{
+   background-color: white;
+ }
+ /*section9 end*/
+ /*footer start*/
+ footer{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: space-around;
+   flex-direction:;
+   color:white;
+   align-items: center;
+   padding: 400px 0;
+   font-size: 25px;
+   background-color:  #001a33;
+   color:  rgba(255, 255, 255,0.8) ;
+ }
+ footer div div div h6{
+   width: 50%;
+ }
+ .main{
+   margin-left: 15px;
+ }
+ .main2{
+   margin-right: 5px;
+ }
+ .main .iii a {
+  flex-direction: row;
+   display: flex;
+   float: left;
+   color: background-color:  #001a33;
+   color:  rgba(255, 255, 255,0.5) ;;
+   padding: 2px;
+   font-size: 30px;
+   text-decoration: none;
+ }
+ .uuu{
+ width: 100%;
+   bottom: 0;
+   display: flex;
+   background-color:black ;
+   color:  rgba(255, 255, 240,0.6) ;
+   text-align: center;
+   justify-content: center;
+ }
+ .pb{
+   padding-top: 15px;;
+ }
+ .main  .a a{
+   display: flex;
+   flex-direction: column;
+   text-decoration: none;
+   padding: 5px 0;
+   width: 14px;
+   color:  rgba(255, 255, 255,0.3) ;;
+ }
+ a{
+   text-decoration: none;
+   cursor: none;
+ }
+  .main  .a a:hover{
+    color: #66ffff;
+  }
+ .main2 a{
+   display: flex;
+   flex-direction: column;
+   text-decoration: none;
+   padding: 5px 0;
+   width: 130px;
+   color:  rgba(255, 255, 255,0.3) ;;
+ }
+ .main2 a:hover{
+  color: #66ffff;
+ }
+ address{
+   line-height: 45px;
+   width: 100%;
+ }
+ .ad{
+   width: 400px;
+ }
+ footer div{
+   width:% ;
+   height: ;
+ }
+ 
+ /*footer end*/
+ 
+
+/*media start */
+button{
+transition: all .3s ease-in-out;}
+@media (max-width:1000px){
+  header{
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  position: fixed;
+}
+header ul{
+  list-style: none;
+  display: flex;
+  margin-left: -120px;
+  margin-top: 70px;
+  
+}
+header ul ul{
+  display: none;
+}
+header ul li:hover ul{
+  display: block;
+}
+header ul a{
+  padding: 0 5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-size: 2px;
+}
+.logo{
+  margin-top: 4px;
+}
+header input{
+  margin-right: 20px;
+  padding: 10px 5px;
+  margin-top: 6px;
+  background-color: ;
+  color: white;
+  margin-left: -140px;
+}
+
+.section1{
+  width: 100%;
+ height: 100%;
+ display: flex;
+}
+.section1 .tex .text button{
+  background-color:#16e0c2 ;
+ padding: 9px;
+background: linear-gradient(to right, #33adff -51%, #e6f0ff 139%);
+ font-size: 10px;
+}
+ .tex{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  margin-top: 110px;
+  background-image: url('x3.png.');
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  font-size: 10px;
+}
+.text{
+  margin-left: 90px;
+}
+
+/*section end*/
+/*section2 start*/
+.section2{
+  display: flex;
+  width: 100%;
+}
+.g{
+  display: flex;
+  flex-direction: column;
+  width: px;
+}
+.i{
+  background-color: aqua;
+}
+.ii{
+  background-color: aquamarine;
+}
+.section2 button{
+  padding: 10px;
+  background-color:transparent;
+  outline: none;
+  cursor: pointer;
+}
+.section3 .u{
+  width: 200px;
+  height: 300px;
+}
+.img{
+  width: 100px;
+}
+.section3{
+  justify-content: center;
+  display: flex;
+}
+/*section4 start*/
+/*section4 end*/
+    /*section5 start*/
+            
+            .section5{
+              background-color: #eeeee4
+;display: flex;
+              justify-content: center;
+              flex-direction: column;
+              text-align: center;
+              width: 100%;
+              height: 100%;
+            }
+             .section5 .u1{
+             width: 100%;
+             height: 100%;
+             display: flex;
+             flex-direction: column;
+             }
+             .section5 .u1 div{
+            padding: 25px 0px;
+          }
+            /*section5 end*/
+            /*section6 start*/
+             .section6{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   
+ }
+ .section6 div{
+   
+ background-position: center;
+   height: 150px;
+   flex-direction: column;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 100%;
+background-image:url('z#.png') ;
+   background-repeat: no-repeat;
+   background-size:cover;
+ }
+ .section6 p{
+ margin-top: 50px;
+     font-size: 1px;
+ }
+            /*section6 end*/
+            /*section7 start*/
+            .section7{
+   width: 100%;
+   height: 100%;
+   background-color: white;
+   margin-top: 50px;
+   display: flex;
+ }
+ .section7 .mytabs{
+   display: flex;
+  
+  width: 100%;
+   
+ }
+ .section7 .mytabs input{
+   display: none;
+    
+ }
+ .section7 .mytabs label{
+ padding:;
+  
+    
+    display: flex;
+    font-size: 1px;
+    
+ }
+ .la{
+   right: 0;
+   position: absolute;
+ }
+ .mytabs .tab div img{
+  justify-content: center;
+   align-items: center;
+ }
+ .gox{
+   width: 300px;
+  
+ }
+ .mytabs .tab{
+   width: 100%;
+   order: 1;
+   display: none;
+   padding: 20px;
+   background-color: white;
+  
+ }
+ .mytabs input:checked + label + .tab {
+   display: block;
+ }
+ .mytabs img{
+   width: 140px;
+ }
+ 
+            /*section7 end*/
+/*section8 start*/
+ .section8{
+   width: 100%;
+   height: 100%;
+   background-color;#e6e6e6 ;
+ }
+ .section8 .but{
+   padding: 100px 0;
+   width: 100%;
+   height:100% ;
+   justify-content: space-around;
+   display: flex;
+ }
+ 
+ .section8 .but div{
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   display: flex;
+ }
+ .but div button{
+   padding: 6px 30px;
+   outline: none;
+   border: none;
+   cursor: none;
+ }
+ .ppp{
+   font-size: 10px;
+   text-transform: uppercase;
+ }
+ .pp{
+   color: e6e6e6;
+   font-size: 6px;
+   text-transform: uppercase;
+ }
+ .section8 button:hover{
+   background-color: 	 #00e6e6;
+ }
+ /*footer start*/
+ footer{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: space-around;
+   flex-direction:;
+   
+   align-items: center;
+   padding: 200px 0;
+   font-size: 5px;
+   background-color:  #001a33;
+   color:  rgba(255, 255, 255,0.8) ;
+   
+ }
+ .main{
+   margin-left: 10px;;
+ }
+ .main div{
+   padding: 3px 0;
+ }
+ .main2{
+   margin: 5px;
+ }
+ footer div div div h6{
+   width: 50%;
+ }
+ .main .iii a {
+  flex-direction: row;
+   display: flex;
+   float:;
+   color:  rgba(255, 255, 255,0.5) ;;
+   padding: px;
+   font-size: px;
+   text-decoration: none;
+ }
+ .pb{
+   margin-top: 50px;
+   flex-direction: column;
+   display: flex;
+ }
+ .main  .a a{
+   display: flex;
+   flex-direction: column;
+   text-decoration: none;
+   padding: px 0;
+   width: px;
+ }
+ .main2 a{
+   display: flex;
+   flex-direction: column;
+   text-decoration: none;
+   padding: px 0;
+   width: px;
+ }
+ /*
+ .main{
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+ align-items: center;
+ text-align: center;
+ }
+ .main div{
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+ align-items: center;
+ }*/
+ footer div{
+   width:% ;
+   height: ;
+ }
+ address{
+   line-height: 15px;
+   width: 100%;
+ }
+ .ad{
+   width: 100%;
+ }
+ /*footer end*/
+  .uuu{
+ 
+   bottom: 0;
+   display: flex;
+   background-color:black ;
+   color:  rgba(255, 255, 255,0.6) ;
+   text-align: center;
+   justify-content: center;
+ }
+ .uuu p{
+   width: 300px;
+ }
+}
